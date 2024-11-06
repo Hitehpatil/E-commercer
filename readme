@@ -1,0 +1,67 @@
+Mock E-Commerce Website
+This project is a mock e-commerce website inspired by Amazon, showcasing a full end-to-end transaction process. Users can browse products, view detailed information, add items to their cart, and proceed through checkout with simulated payment success and failure outcomes.
+
+Features
+Homepage: Overview of featured products and categories.
+Product Listing Page: Displays all products with filtering and sorting options.
+Product Details Page: Detailed view of a selected product, including description, price, and add-to-cart functionality.
+Cart and Checkout: Review selected items in the cart, proceed to checkout, and confirm orders.
+Payment Success/Failure Pages: Simulated response pages for successful or failed payments.
+Technology Stack
+Frontend: [React.js / HTML / CSS / JavaScript] for responsive user interface
+Backend: [Express / Node.js] for handling API requests and data processing
+Data: Mock APIs are used to load and handle product inventory and simulate transaction responses
+Testing: Basic test cases for key functionalities in the frontend and backend
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/mock-ecommerce-website.git
+cd mock-ecommerce-website
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+Frontend will be running on http://localhost:3000
+Backend API server will be running on http://localhost:5000
+Project Structure
+plaintext
+Copy code
+├── src                   # Frontend source code
+│   ├── components        # Reusable components (e.g., Navbar, ProductCard)
+│   ├── pages             # Pages (Home, ProductList, ProductDetails, Checkout)
+│   ├── services          # API services and mock data handlers
+│   └── App.js            # Main app file
+├── server                # Backend server code
+│   ├── api               # API endpoints for product data and transactions
+│   └── server.js         # Entry point for backend server
+├── public                # Public assets (images, icons)
+├── README.md             # Project documentation
+└── package.json          # Project dependencies and scripts
+Mock API
+The mock API simulates:
+
+Product Inventory: Loads product data for listing and details pages
+Cart Management: Adds or removes items in the user's cart
+Payment Processing: Mocks payment success or failure responses
+Usage
+Browse Products: Navigate through the homepage or product listing page.
+View Product Details: Click on a product to see its details.
+Add to Cart: Add items to your cart and view the cart summary.
+Checkout: Proceed to checkout, simulate payment, and view success or failure pages.
+Screenshots
+Add screenshots of each page for better visualization.
+
+Contributing
+Contributions are welcome! Please open issues or submit PRs for any improvements or suggestions.
+
+License
+This project is open-source and available under the MIT License.
+
